@@ -1,0 +1,25 @@
+.inputDiv {
+  background-color: #fff;
+  padding: 5px 15px;
+}
+input {
+  font-size: 1.1rem;
+  padding: 5px 10px;
+  font-weight: 600;
+  margin-right: 30px;
+  background: transparent;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+.btn {
+  font-size: 1.1rem !important;
+  color: blueviolet;
+  cursor: pointer;
+  transition: font-size 0.6s ease;
+}
+.btn:hover {
+  font-size: 1.3rem !important;
+}

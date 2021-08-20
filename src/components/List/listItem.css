@@ -1,0 +1,111 @@
+.listDiv {
+  height: auto;
+  width: 100%;
+  margin: 10px 0px;
+  /* border: 1px solid #fff; */
+  text-align: center;
+}
+.editDiv {
+  background-color: #fff;
+  padding: 5px 15px;
+  margin: 15px 0px;
+}
+input {
+  font-size: 1.1rem;
+  padding: 5px 10px;
+  font-weight: 600;
+  margin-right: 30px;
+  background: transparent;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+.btn {
+  font-size: 1.1rem !important;
+  color: blueviolet;
+  cursor: pointer;
+  transition: font-size 0.6s ease;
+}
+.btn:hover {
+  font-size: 1.3rem !important;
+}
+.list {
+  margin: 20px auto;
+  /* border: 1px solid #fff; */
+  height: auto;
+  width: 30%;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blueviolet;
+  border-radius: 5px;
+  transition: all 0.6s ease;
+}
+.list:hover {
+  background-color: #fff;
+}
+.list:hover .listData {
+  color: blueviolet;
+}
+.list:hover .editBtn {
+  color: #060822;
+}
+.list:hover .deleteBtn {
+  color: rgb(228, 82, 82);
+}
+.listData {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 600;
+}
+.editBtn {
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.deleteBtn {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.6s ease;
+}
+.clearBtn {
+  font-size: 1.1rem;
+  padding: 5px 20px;
+  background-color: blueviolet;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+.clearBtn:hover {
+  background-color: #fff;
+  color: #060822;
+}
+.clearBtn:focus {
+  outline: none;
+}
+
+@media (max-width: 950px) {
+  .list {
+    width: 40% !important;
+  }
+}
+@media (max-width: 650px) {
+  .list {
+    width: 70% !important;
+  }
+}
+@media (max-width: 501px) {
+  .list {
+    width: 80% !important;
+  }
+}
